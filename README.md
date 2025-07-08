@@ -15,9 +15,9 @@ Displays the result on the same page with a styled interface using CSS.
 
 
 ## Build the Docker Image
-docker build -t flask-age-calculator .
+docker build -t calculate_age .
 ## Run the Container
-docker run -p 8080:5000 flask-age-calculator
+docker run -p 8080:5000 calculate_age
 
 ## Screenshots of Docker image created 
 <img width="954" alt="Screenshot 2025-07-08 142403" src="https://github.com/user-attachments/assets/6180cf4e-b178-4b48-8b2e-b01907e955de" />
