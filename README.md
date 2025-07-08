@@ -8,10 +8,11 @@ Calculates the age in years and months based on the current date (July 08, 2025,
 Displays the result on the same page with a styled interface using CSS.
 
 ## Technologies Used
-Python 3.13: For the Flask backend.
-Flask: A micro web framework for building the application.
-HTML/CSS: For the frontend interface.
-Docker: For containerizing the application.
+- **Python 3.13**: For the Flask backend.  
+- **Flask**: A micro web framework for building the application.  
+- **HTML/CSS**: For the frontend interface.  
+- **Docker**: For containerizing the application.
+
 
 ## Build the Docker Image
 docker build -t flask-age-calculator .
